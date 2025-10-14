@@ -1,8 +1,5 @@
-# spot-secrets-go
-Extracts tokens from Spotify's web vendor and updates hourly. Has base32 support unlike other versions. Rewritten in go for fun.
+Automatically extracts Spotify web vendor tokens and updates them every **10 minutes**.
+The generated tokens are available at [secrets](https://github.com/afkarxyz/secretBytes/tree/main/secrets)
 
-# Credits
+## Credits
 [Original work](https://github.com/misiektoja/spotify_monitor/blob/dev/debug/spotify_monitor_secret_grabber.py) by @misiektoja.
-
-# Usage
-To be added soon.
